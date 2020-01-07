@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-const InputElement = () => {
+export default function InputElement() {
 
     const [inputText,setInputText] = useState("");
     const [historyList, setHistoryList] = useState([]);
@@ -20,5 +20,3 @@ const InputElement = () => {
         </ul>
     </div>
 };
-
-export default InputElement;

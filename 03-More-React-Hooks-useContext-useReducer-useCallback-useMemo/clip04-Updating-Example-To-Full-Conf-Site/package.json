@@ -1,12 +1,13 @@
 {
-  "name": "React-App-Learning-React-Hooks",
+  "name": "hooks",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "next": "./packages/next/dist/bin/next"
   },
   "keywords": [],
   "author": "Peter Kellner",
@@ -14,7 +15,7 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "bootstrap": "^4.3.1",
-    "next": "^8.0.3",
+    "next": "^9.1.4",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-toastify": "^4.5.2"
@@ -25,6 +26,7 @@
     "eslint-plugin-react-hooks": "^1.5.0",
     "prettier": "1.16.4",
     "react-hooks": "^1.0.1",
-    "react-performance": "0.0.5"
+    "react-performance": "0.0.5",
+    "next": "^9.1.4"
   }
 }

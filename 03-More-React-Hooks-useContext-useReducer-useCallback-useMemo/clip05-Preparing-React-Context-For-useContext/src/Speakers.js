@@ -66,7 +66,7 @@ const Speakers = ({}) => {
       }
       return item;
     }));
-    //console.log("changing session favorte to " + favoriteValue);
+    console.log("changing session favorte to " + favoriteValue);
   };
 
   if (isLoading) return <div>Loading...</div>;

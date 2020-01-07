@@ -2,18 +2,18 @@ import React from "react";
 import ImageToggleOnMouseOver from "../src/ImageToggleOnMouseOver";
 
 
-const ImageChangeOnMouseOver = () => {
+export default function ImageChangeOnMouseOver() {
     return (
         <div>
-            <ImageToggleOnMouseOver primaryImg="/static/speakers/bw/Speaker-187.jpg"
-                                    secondaryImg="/static/speakers/Speaker-187.jpg"
-                                    alt="" />
-            &nbsp;&nbsp;&nbsp;
-            <ImageToggleOnMouseOver primaryImg="/static/speakers/bw/Speaker-1124.jpg"
-                                    secondaryImg="/static/speakers/Speaker-1124.jpg"
-                                    alt="" />
+            <ImageToggleOnMouseOver 
+            primaryImg="/public/speakers/bw/Speaker-187.jpg" alt="Kent"
+            secondaryImg="/public/speakers/Speaker-187.jpg" />
+             &nbsp;&nbsp;   &nbsp;
+            <ImageToggleOnMouseOver 
+            primaryImg="/public/speakers/bw/Speaker-1124.jpg" alt="Sandy"
+            secondaryImg="/public/speakers/Speaker-1124.jpg"
+            />
         </div>
     );
 };
 
-export default ImageChangeOnMouseOver;

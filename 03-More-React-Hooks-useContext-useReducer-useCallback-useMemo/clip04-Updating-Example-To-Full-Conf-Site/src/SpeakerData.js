@@ -5,7 +5,7 @@ const speakerData = [
     lastName: "Baker",
     sat: false,
     sun: true,
-    favorite: true,
+    favorite: false,
     bio:
       "Tammy has held a number of executive and management roles over the past 15 years, including VP engineering Roles at Molekule Inc., Cantaloupe Systems, E-Color, and Untangle Inc."
   },
@@ -35,7 +35,7 @@ const speakerData = [
     lastName: "Crockford",
     sat: true,
     sun: false,
-    favorite: true,
+    favorite: false,
     bio:
       "Douglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma."
   },
@@ -55,7 +55,7 @@ const speakerData = [
     lastName: "Gupta",
     sat: false,
     sun: true,
-    favorite: true,
+    favorite: false,
     bio:
       "Arun Gupta is a Principal Open Source Technologist at Amazon Web Services. He has built and led developer communities for 12+ years at Sun, Oracle, Red Hat and Couchbase."
   },
@@ -105,7 +105,7 @@ const speakerData = [
     lastName: "Nilson",
     sat: false,
     sun: true,
-    favorite: true,
+    favorite: false,
     bio:
       "Team Lead of the Chromecast Technical Solutions Engineer team, a Java Champion and three time JavaOne Rock Star Presenter. Kevin has spoken at conferences such as JavaOne, Devoxx, JAX, O'Reilly Fluent, Silicon Valley Code Camp, JAX and HTML5DevConf."
   },
@@ -125,7 +125,7 @@ const speakerData = [
     lastName: "Ross",
     sat: true,
     sun: false,
-    favorite: true,
+    favorite: false,
     bio:
       "Antony Ross is a consultant specializing in data science and machine learning applied to sports performance. He has worked closely with USC and UCLA and is presently involved with the Recurse Center in New York researching deep learning and voice recognition."
   },
@@ -135,7 +135,7 @@ const speakerData = [
     lastName: "Souders",
     sat: true,
     sun: false,
-    favorite: true,
+    favorite: false,
     bio:
       "Steve works at SpeedCurve on the interplay between performance and design. He previously served as Google's Head Performance Engineer, Chief Performance Yahoo!, and Chief Performance Officer at Fastly."
   }

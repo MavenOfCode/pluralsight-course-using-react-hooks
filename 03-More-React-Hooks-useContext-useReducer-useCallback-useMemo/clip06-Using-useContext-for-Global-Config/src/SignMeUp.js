@@ -40,7 +40,7 @@ const SignMeUp = ({ signupCallback }) => {
 
   const buttonText = sendProcessing ? "processing..." : "Get Updates";
 
-  //console.log("src/SignMeUp called");
+  console.log("src/SignMeUp called");
 
   return context.showSignMeUp === false ? null : (
     <div className="container">
